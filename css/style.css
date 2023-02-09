@@ -1,0 +1,44 @@
+.header img{
+    display: flex;
+    width: 200px;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border: solid 2px;
+    border-color: rgb(254, 189, 90);
+}
+
+.rodape{
+    height: 100%;
+    background-color: antiquewhite;
+    padding-top: 1%;
+    color: black;
+    display: flex;
+    font-size: 11px;
+    justify-content: center;
+}
+
+.logo-cs{
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    display: inherit;
+}
+
+.logo-cs p{
+    font-size: 9px;
+}
+
+.logo-cs1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-cs img{
+    width: 15%;
+}
