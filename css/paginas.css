@@ -1,3 +1,26 @@
 .body{
     background-color: black;
 }
+
+.cartao{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.cartao-img{
+    background-color: purple;
+}
+
+.cartao-img img{
+    width: 200px;
+    height: 300px;
+}
+
+.cartao .cartao-texto{
+ width: 100%;
+    background-color: red;
+}
