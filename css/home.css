@@ -14,6 +14,14 @@
     background-color: black;
 }
 
+.sabado-festa{
+    background-color:rgba(26, 27, 27, 0.951)
+}
+
+.domingo{
+    background-color:rgba(44, 43, 43, 0.951)
+}
+
 .menu{
     border-radius: 100%;
     margin: 5% 0 5% 5%;
@@ -27,6 +35,7 @@
     background-color: orange;
     color: black;
     padding: 1px 5px 0px 1px;
+    text-decoration: inherit;
 }
 
 .img-botao{
