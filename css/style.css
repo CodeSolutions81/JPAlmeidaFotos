@@ -1,17 +1,3 @@
-.header img{
-    display: flex;
-    width: 150px;
-    justify-content: center;
-}
-
-.header{
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    border: solid 2px;
-    border-color: rgb(254, 189, 90);
-}
-
 .rodape{
     height: 100%;
     background-color: antiquewhite;
