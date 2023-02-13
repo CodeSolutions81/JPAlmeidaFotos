@@ -1,0 +1,50 @@
+.body{
+    background-color: black;
+}
+
+.data-dia{
+    color: rgb(254, 189, 90);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.data-dia h1{
+    display: flex;
+}
+
+.cartao{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.cartao-img{
+    background-color: rgb(254, 189, 90);
+    padding: 0 5px 0 5px;
+    border: solid rgb(254, 189, 90);
+    
+}
+
+.cartao .cartao-texto{
+ width: 100%;
+    color: black;
+    background-color: rgb(254, 189, 90);
+    display: flex;
+    justify-content: center;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.pagination a{
+    background-color: black;
+    color: rgb(254, 189, 90);
+}
