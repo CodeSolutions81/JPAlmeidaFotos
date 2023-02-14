@@ -1,9 +1,9 @@
 .body{
-    background-color: black;
+    background-color: #795548;
 }
 
 .data-dia{
-    color: rgb(254, 189, 90);
+    color: snow;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,6 +45,14 @@
 }
 
 .pagination a{
-    background-color: black;
+    background-color:#795548;
     color: rgb(254, 189, 90);
+}
+
+.turma{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(254, 189, 90);
+    color: black;
 }
