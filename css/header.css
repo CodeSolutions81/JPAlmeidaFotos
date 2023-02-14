@@ -7,7 +7,7 @@
 .header{
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color: #795548;
     border: solid 2px;
     border-color: rgb(254, 189, 90);
 }
@@ -15,7 +15,7 @@
 .header-page{
         display: flex;
         justify-content: space-around;
-        background-color: black;
+        background-color:#795548;
         border: solid 2px;
         border-color: rgb(254, 189, 90);
 }
@@ -35,29 +35,28 @@
 .btn-nav{
     width: 100%;
     color: white;
-    background-color: black;
-    border: solid black;    
+    background-color: #795548;
+    border: solid #795548;
 }
 
 .icone{
-    background-color: black;
     color: rgb(254, 189, 90);
     width: 50px;
     padding: 10px;
 }
 
 .offcanvas-header{
-    background-color: black;
     color: rgb(254, 189, 90);
     justify-content: space-around;
+    background-color: #795548;
 }
 
 .btn-close{
-    background-color: white;
+    background-color:rgb(254, 189, 90)
 }
 
 .offcanvas-body{
-    background-color: rgb(51, 50, 50);
+    background-color: rgb(62, 46, 46);
     display: flex;
     flex-direction: column;
     align-items: center;

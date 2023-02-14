@@ -11,6 +11,7 @@
     <meta http-equiv="pragma" content="no-cache" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="shortcut icon" href="/img/jpalmeira-logo.png" >
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/home.css">
     <link rel="stylesheet" href="/css/header.css">
@@ -21,14 +22,14 @@
 <body class="body">
     <header class="header-page">
         <div>
-            <img src="/img/77898AE5-4C45-406C-9782-7791ADEAAF14.png" alt="">
+            <a class="btn btn" href="/src/index.html" role="button"><img src="/img/jpalmeira-logo.png" alt=""></a>  
         </div>
         <div class="header-navegacao">
             <button class="btn-nav" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="icone bi bi-list"></i></button>
 
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                 <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasRightLabel"><img src="/img/77898AE5-4C45-406C-9782-7791ADEAAF14.png" alt=""></h5>
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel"><img src="/img/jpalmeira-logo.png" alt=""></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
@@ -36,13 +37,13 @@
                         <a href="/src/index.html"><i class="bi bi-house"></i>  Home</a>
                     </div>
                     <div>
-                        <a href="#"><i class="bi bi-microsoft-teams"></i>  Sabado TeamUP</a>
+                        <a href="/src/paginas/sabado/page-1-sabado.html"><i class="bi bi-microsoft-teams"></i>  Sabado TeamUP</a>
                     </div>
                     <div>
-                        <a href="#"><i class="bi bi-brightness-high"></i> Acorda para Pagar Burpee</a>
+                        <a href="/src/paginas/domingo/page-1-domingo.html"><i class="bi bi-brightness-high"></i> Domingo CarnaWOD</a>
                     </div>
                     <div>
-                        <a href="#"><i class="bi bi-whatsapp"></i> Whatsapp</a>
+                        <a class="whatsapp" href="https://api.whatsapp.com/send?phone=5581995922147&text=Ol%C3%A1,%20tudo%20bem?%20Gostei do(s) ID(s):  "><i class="bi bi-whatsapp"></i> Whatsapp</a>
                     </div>
 
                 </div>
@@ -53,57 +54,39 @@
     <!--Final do Header-->
 
     <div class="data-dia">
-        <h4>Sabádo - 11/02/2023</h4>
-        <p>TEAM UP</p>
+        <span class="turma">
+            <h4>Acorda para pagar Burpee</h4>
+            <h4>12/02/2023</h4>
+            <p>Festa UP Cross</p>
+        </span>
     </div>
 
     <div class="cartao">
         <div class="cartao-img text-center">
-            <img src="/img/pack fotos/ID-01001.jpg" class="img-fluid" id="ID-01001" alt="...">
+            <img src="/img/nenhuma-foto-disponivel-icone-vetorial-simbolo-de-imagem-padrao-imagem-em-breve-para-site-ou-aplicativo-movel_87543-10639.avif" class="img-fluid" id="ID-01001" alt="...">
         </div>
         <div class="cartao-texto">
-            <p>ID-01001</p>
+            <p>ID - XXXX</p>
         </div>
     </div>
 
     <div class="cartao">
         <div class="cartao-img">
-            <img src="/img/pack fotos/ID-01002.jpg" class="img-fluid" alt="">
+            <img src="/img/nenhuma-foto-disponivel-icone-vetorial-simbolo-de-imagem-padrao-imagem-em-breve-para-site-ou-aplicativo-movel_87543-10639.avif" class="img-fluid" alt="">
         </div>
         <div class="cartao-texto">
-            <p>ID-01002</p>
+            <p>ID - XXXX</p>
         </div>
     </div>
 
     <div class="cartao">
         <div class="cartao-img">
-            <img src="/img/pack fotos/ID-01003.jpg" class="img-fluid" alt="">
+            <img src="/img/nenhuma-foto-disponivel-icone-vetorial-simbolo-de-imagem-padrao-imagem-em-breve-para-site-ou-aplicativo-movel_87543-10639.avif" class="img-fluid" alt="">
         </div>
         <div class="cartao-texto">
-            <p>ID-01003</p>
+            <p>ID - XXXX</p>
         </div>
     </div>
-
-    <div class="cartao">
-        <div class="cartao-img">
-            <img src="/img/pack fotos/ID-01004.jpg" class="img-fluid" alt="">
-        </div>
-        <div class="cartao-texto">
-            <p>ID-01004</p>
-        </div>
-    </div>
-
-    <div class="cartao">
-        <div class="cartao-img">
-            <img src="/img/pack fotos/ID-01005.jpg" class="img-fluid" alt="">
-        </div>
-        <div class="cartao-texto">
-            <p>ID-01005</p>
-        </div>
-    </div>
-
-
-
 
     <!--Inicio da Paginação-->
 
@@ -111,16 +94,11 @@
     <nav aria-label="Page navigation example">
         <ul class="pagination">
           <li class="page-item">
-            <a class="page-link" href="#" aria-label="Voltar">
-              <span aria-hidden="true">&laquo;</span>
-            </a>
           </li>
           <li class="page-item"><a class="page-link" href="/src/paginas/page-1-sabado.html">1</a></li>
-          <li class="page-item"><a class="page-link" href="/src/paginas/page-2-sabado.html">2</a></li>
-          <li class="page-item"><a class="page-link" href="/src/paginas/page-3-sabado.html">3</a></li>
+          <!--<li class="page-item"><a class="page-link" href="/src/paginas/page-2-sabado.html">2</a></li>
+          <li class="page-item"><a class="page-link" href="/src/paginas/page-3-sabado.html">3</a></li>-->
           <li class="page-item">
-            <a class="page-link" href="#" aria-label="Proximo">
-              <span aria-hidden="true">&raquo;</span>
             </a>
           </li>
         </ul>
