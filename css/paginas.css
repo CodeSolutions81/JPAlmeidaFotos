@@ -4,7 +4,7 @@
 
 .data-dia{
     color: snow;
-    display: flex;
+    display: contents;
     flex-direction: column;
     align-items: center;
     margin-top: 60px;
@@ -48,10 +48,18 @@
     color: rgb(254, 189, 90);
 }
 
+.active>.page-link{
+    background-color: rgb(254, 189, 90);
+    border-color: white;
+    color: #795548;
+
+}
+
 .turma{
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: rgb(254, 189, 90);
     color: black;
+    padding-top: 5%;
 }
